@@ -5,24 +5,115 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>2nd-git-work</title>
+    <style>
+        #Head {
+            display: flex;
+            justify-content: space-between;
+            padding: 10px 20px;
+            align-items: center;
+            border-bottom: 1px solid lightgray;
+        }
+
+
+
+        #H1 {
+            font-size: 36px;
+            color: rgb(221, 103, 18);
+            padding: 5px;
+            font-weight: bold;
+            /* margin-top: 0px; */
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+
+        #home {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px;
+        }
+
+        #Btn {
+            background-color: rgb(235, 121, 55);
+            color: white;
+            border: none;
+            box-shadow: rgb(95, 36, 13) 2px 3px 5px;
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            border-radius: 10px;
+            /* margin-top: px; */
+            text-align: center;
+            font-weight: bold;
+        }
+
+        #doll {
+            font: size 36px;
+            color: rgb(231, 113, 17);
+            font-weight: bold;
+            padding: 5px;
+            /* margin-top: 0px; */
+        }
+
+        #page {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            padding: 1px;
+            margin: 2px;
+        }
+
+        #p {
+            padding: 5px;
+            font-size: 16px;
+            color: gray;
+            margin-top: 10px;
+            max-width: 500px;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+
+        .product {
+            display: flex;
+            justify-content: space-around;
+            padding: 20px;
+        }
+
+        .H3 {
+            font-size: 30px;
+            margin-top: 10px;
+            padding: 5px;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            font-weight: bold;
+            margin-left: 10px;
+
+        }
+
+        .l img {
+            height: 40px;
+        }
+    </style>
+
+</head>
+
+<body>
     <div id="Head">
         <div class="l"><img src="Images/logo.png"></div>
         <div class="l"><img src="Images/menu-bar.png" alt=""></div>
     </div>
-</head>
 
-<body>
-    <h1>This is my 2nd git work</h1>
-    <div>
-        <h1 id="H1">Mi LED TV PRO 32</h1>
+    <div id="home">
+        <div id="page">
+            <h1 id="H1">Mi LED TV PRO 32</h1>
+            <p id="p">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat
+                duis
+                enim
+                velit
+                mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+            <div id="doll">
+                <p>$1289</p>
+            </div>
+            <Button id="Btn">BUY NOW</Button>
+        </div>
         <img src="Images/hero-tv.png" alt="">
-
-        <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim
-            velit
-            mollit. Exercitation veniam consequat sunt nostrud amet.</p>
-
-        $1289
-        <Button id="Btn">BUY NOW</Button>
     </div>
 
 
@@ -30,7 +121,7 @@
 
     <div>
         <h3 class="H3">Categories</h3>
-        <div>
+        <div class="product">
             <img src="Images/category-watch.png">
             <img src="Images/category-bag.png">
             <img src="Images/category-shoe.png">
@@ -38,14 +129,14 @@
 
         <h3 class="H3">Shoos</h3>
 
-        <div>
+        <div class="product">
             <img src="Images/shoe-1.png">
             <img src="Images/shoe-2.png">
             <img src="Images/shoe-3.png">
         </div>
 
         <h3 class="H3">Backpack</h3>
-        <div>
+        <div class="product">
             <img src="Images/bag-1.png">
             <img src="Images/bag-2.png">
             <img src="Images/bag-3.png">
