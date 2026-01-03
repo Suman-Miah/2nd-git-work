@@ -1,0 +1,84 @@
+#Head {
+            display: flex;
+            justify-content: space-between;
+            padding: 10px 20px;
+            align-items: center;
+            border-bottom: 1px solid lightgray;
+        }
+
+
+
+        #H1 {
+            font-size: 36px;
+            color: rgb(221, 103, 18);
+            padding: 5px;
+            font-weight: bold;
+            /* margin-top: 0px; */
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+
+        #home {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px;
+        }
+
+        #Btn {
+            background-color: rgb(235, 121, 55);
+            color: white;
+            border: none;
+            box-shadow: rgb(95, 36, 13) 2px 3px 5px;
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            border-radius: 10px;
+            /* margin-top: px; */
+            text-align: center;
+            font-weight: bold;
+        }
+
+        #doll {
+            font: size 36px;
+            color: rgb(231, 113, 17);
+            font-weight: bold;
+            padding: 5px;
+            /* margin-top: 0px; */
+        }
+
+        #page {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            padding: 1px;
+            margin: 2px;
+        }
+
+        #p {
+            padding: 5px;
+            font-size: 16px;
+            color: gray;
+            margin-top: 10px;
+            max-width: 500px;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+
+        .product {
+            display: flex;
+            justify-content: space-around;
+            padding: 20px;
+        }
+
+        .H3 {
+            font-size: 30px;
+            margin-top: 10px;
+            padding: 5px;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            font-weight: bold;
+            margin-left: 10px;
+
+        }
+
+        .l img {
+            height: 40px;
+        }
